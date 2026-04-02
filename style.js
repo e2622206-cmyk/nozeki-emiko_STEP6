@@ -30,10 +30,11 @@ function checkForm() {
 let currentIndex = 0;
 const colors = ["blue", "red", "yellow", "gray"];
 
-function changeFooterColor() {
-    const footer = document.querySelector("footer");
+const button = document.querySelector("#colorBtn");
+const footer =document.querySelector("footer");
 
+button.addEventListener("click", function() {
     footer.style.backgroundColor = colors[currentIndex];
+    currentIndex = (currentIndex +1) % colors.length;
+});
 
-    currentIndex = (currentIndex + 1) % colors.length;
-}

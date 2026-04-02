@@ -92,8 +92,6 @@
     </div>
 
     <footer>
-        <p>横のボタンを押すとfooterの背景色が変わります。</p>
-        <button onclick="changeFooterColor()">押してみてね！</button>
     </footer>
 </div>
 </body>

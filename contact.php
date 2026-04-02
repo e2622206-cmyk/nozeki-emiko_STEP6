@@ -58,7 +58,7 @@
         </div>
         <footer>
             <p>横のボタンを押すとfooterの背景色が変わります。</p>
-            <button onclick="changeFooterColor()">押してみてね！</button>
+            <button id="colorBtn">押してみてね！</button>
         </footer>
         <script src="style.js"></script>
     </div>
